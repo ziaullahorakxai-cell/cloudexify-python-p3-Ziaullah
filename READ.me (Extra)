@@ -1,0 +1,218 @@
+# 🐍 Python Quiz Game
+
+## CloudExify Python Internship — Month 2 | Project 3
+
+### 👨‍💻 Student Information
+
+**Name:** Ziaullah  
+**Registration Number:** CX-INT-2026-PY-0441
+
+---
+
+## 📌 Project Overview
+
+The Python Quiz Game is an interactive command-line application developed as part of the CloudExify Python Internship — Month 2, Project 3.
+
+The game tests the user's Python programming knowledge through multiple-choice questions. Questions are displayed in random order, and the player selects answers using A, B, C, or D.
+
+After completing the quiz, the program calculates the player's score, percentage, grade, and performance feedback. The project also includes a persistent high-score system using a text file.
+
+---
+
+## ✨ Features
+
+- 🎯 Interactive Python quiz
+- 🔀 Randomized question order
+- 📚 Multiple-choice questions
+- 🔤 A/B/C/D answer system
+- ✅ Automatic answer checking
+- 🛡️ Input validation
+- 📊 Score calculation
+- 📈 Percentage calculation
+- 🏆 Automatic grade calculation
+- ⭐ High-score tracking
+- 💾 Persistent high-score storage
+- 🔄 Play-again functionality
+- 🚪 Exit option
+- 💬 Instant feedback for correct and incorrect answers
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3.x
+- `random` module
+- Lists
+- Dictionaries
+- Functions
+- For loops
+- While loops
+- If/elif/else statements
+- File handling
+- User input validation
+- String methods
+
+---
+
+## 📂 Project Structure
+
+```text
+cloudexify-python-quiz-game/
+│
+├── quiz_game.py
+├── highscore.txt
+├── README.md
+│
+└── Screenshots
+    ├── quiz-start.png
+    ├── quiz-question.png
+    ├── invalid-input.png
+    └── final-result.png
+```
+
+---
+
+## ▶️ How to Run
+
+### Step 1 — Install Python
+
+Make sure Python 3.x is installed on your computer.
+
+### Step 2 — Open the Project
+
+Open the project folder in Visual Studio Code, IDLE, or a terminal.
+
+### Step 3 — Run the Program
+
+Use the following command:
+
+```bash
+python quiz_game.py
+```
+
+### Step 4 — Play the Quiz
+
+Answer each question by entering:
+
+```text
+A
+B
+C
+D
+```
+
+The program checks the answer and provides immediate feedback.
+
+### Step 5 — View Results
+
+After all questions are completed, the program displays:
+
+- Total score
+- Percentage
+- Grade
+- Performance message
+- High-score information
+
+---
+
+## 🧪 Testing
+
+The application was tested for the following scenarios:
+
+### Test 1 — Start Game
+The program starts successfully and displays quiz questions.
+
+### Test 2 — Random Questions
+Questions appear in a different order when the game is played again.
+
+### Test 3 — Correct Answer
+The program displays a correct-answer message and increases the score.
+
+### Test 4 — Wrong Answer
+The program displays the correct answer when the selected answer is incorrect.
+
+### Test 5 — Invalid Input
+The program rejects invalid input and asks the user to enter A, B, C, or D.
+
+### Test 6 — Final Score
+The program correctly calculates the score and percentage.
+
+### Test 7 — Grade
+The program assigns a grade according to the final percentage.
+
+### Test 8 — High Score
+The program saves and loads the highest score using `highscore.txt`.
+
+### Test 9 — Play Again
+The user can start a new quiz after completing the current quiz.
+
+### Test 10 — Exit
+The program exits successfully when the user chooses not to play again.
+
+---
+
+## 📸 Screenshots
+
+Screenshots demonstrating the running application are included in this repository.
+
+The screenshots demonstrate:
+
+1. Quiz game startup
+2. Quiz question and answer interface
+3. Input validation
+4. Final score and grade
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, I practiced and demonstrated:
+
+- Python programming fundamentals
+- Functions
+- Lists and dictionaries
+- Loops
+- Conditional statements
+- Randomization
+- File handling
+- Input validation
+- Score calculation
+- Basic application structure
+- Problem-solving and debugging
+
+---
+
+## 🚀 Future Improvements
+
+Possible future improvements include:
+
+- ⏱️ Adding a timer for each question
+- 🎚️ Adding Easy, Medium, and Hard difficulty levels
+- 👤 Adding player names
+- 🏆 Creating a leaderboard
+- 📚 Adding different quiz categories
+- ➕ Adding more questions
+- 🖥️ Developing a graphical user interface
+
+---
+
+## 👨‍💻 Developer
+
+**Name:** Ziaullah  
+**Registration Number:** CX-INT-2026-PY-0441
+
+**Program:** CloudExify Python Internship  
+**Month:** 2  
+**Project:** 3 — Python Quiz Game
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrates the practical application of Python programming concepts by combining functions, data structures, loops, conditional logic, randomization, input validation, and file handling into a complete interactive quiz game.
+
+The project was developed as part of the CloudExify Python Internship — Month 2, Project 3.
+
+---
+
+**© 2026 Ziaullah — CloudExify Python Internship**
